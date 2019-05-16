@@ -1,0 +1,131 @@
+<!-- <div class="parallax"></div>
+
+<div class="parallax-content">
+    <h1>Willkommen</h1>
+    <div>schön das Sie uns gefunden haben.</div>
+</div> -->
+
+
+
+<div class="custom-deep-picture-contrainer">
+    <img class="custom-pic-detail-cover" [src]="currentPicture">
+</div>
+
+<div class="row">
+    <div class="offset-sm-1 col-sm-10">
+        <div class="custom-bg-container">
+            <h1 class="m-3 text-center">Herzlich Willkommen</h1>
+            <hr>
+            <div class="mt-3 mb-5">Wie Menschen die im Nebel gehen, begegnet man in der Entwicklung Tag täglich neuen Unbekannten, die es gilt zu 
+                identifizieren und in Erfahrung zu bringen, wie man mit jeder einzelnen Variable umgeht.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="row" *ngIf="screenWidth >= 600">
+    <div class="welcomeContainer offset-sm-1 col-sm-10">
+        <div class="welcomeContainerDesc">
+            <h1>Wir heißen Sie herzlich Willkommen</h1>
+            <hr>
+            in unseren stilvoll eingerichteten<br />
+            Ferienwohnungen in Rochlitz , direkt am Fuße des Rochlitzer Schlosses. Sie<br />
+            möchten Urlaub machen und sich dabei auch richtig wohlfühlen, dann sind sie bei<br />
+            uns genau richtig. Sie haben einen besonderen Anlass, wie zum Beispiel<br />
+            eine Hochzeit, dann schauen Sie sich gerne unser Hochzeits-Special an.<br />
+        </div>
+        <div class="welcomeContainerDesc">
+            Wir wünschen Ihnen eine schöne Zeit in unserem Rochlitz<br />
+            <br />
+            Ihre Familie Storl
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="offset-sm-1 col-sm-10">
+        <div class="custom-bg-container">
+            <div class="row mt-3" *ngIf="screenWidth < 600">
+                <div class="welcomeContainer-static offset-sm-1 col-sm-10">
+                    <div class="welcomeContainerDesc">
+                        <h1>Wir heißen Sie herzlich Willkommen</h1>
+                        in unseren stilvoll eingerichteten<br />
+                        Ferienwohnungen in Rochlitz , direkt am Fuße des Rochlitzer Schlosses. Sie<br />
+                        möchten Urlaub machen und sich dabei auch richtig wohlfühlen, dann sind sie bei<br />
+                        uns genau richtig. Sie haben einen besonderen Anlass, wie zum Beispiel<br />
+                        eine Hochzeit, dann schauen Sie sich gerne unser Hochzeits-Special an.<br />
+                    </div>
+                    <div class="welcomeContainerDesc">
+                        Wir wünschen Ihnen eine schöne Zeit in unserem Rochlitz<br />
+                        <br />
+                        Ihre Familie Storl
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="offset-sm-1 col-sm-10">
+                    <div class="row mt-5">
+                        <div class="col-sm-6 custom-btn-start" (click)="navigateTo(navRoute.route)"
+                            *ngFor="let navRoute of navRoutes">
+                            <h2 class="mt-2">{{ navRoute.name }}</h2>
+                            <hr>
+                            <div>
+                                <i [class]="navRoute.icon"></i>
+                            </div>
+                            <div>{{ navRoute.text }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <h1 class="my-3 text-center">Zur Geschichte</h1>
+                <div class="mb-3 p-4">
+                    Unsere Ferienwohnungen waren schon vor unserer Zeit , Pensionsräume für die
+                    ehemalige Gerichtsschänke in Rochlitz . Was auch auf unserer Fassade des Hauses
+                    noch zu erkennen ist. Einige Zeit stand das Gebäude leer und wir nahmen uns der
+                    Sache an, stilvolle Übernachtungsmöglichkeiten in Rochlitz zu schaffen.
+                    Rochlitz ist eine sehr schöne und sehenswerte Stadt. Einige Sehenswürdigkeiten
+                    finden sie hier auf unserer Seite - über Rochlitz.<br />
+                    Auch die Landschaft direkt an der Zwickauer Mulde lädt zum wandern, Fahrrad
+                    fahren oder sogar einer Bootstour ein.<br />
+                    In unseren Wohnungen möchtet wir Ihnen ein Stück Rochlitz näher bringen. Mit
+                    Bildern über die Stadt , das Schloss oder unserer sportlichen Geschichte von David
+                    Storl. Dieser ist hier in Rochlitz geboren und hat seine sportliche Karriere auch hier
+                    begonnen. Die Rochlitzer sind stolz auf Ihren Kugelstoßweltmeister und David fühlt
+                    sich sehr verbunden zu seiner Stadt. Jedes Jahr im Februar findet auch hier das
+                    Kugelstoß-Meeting in Rochlitz statt . In unseren Wohnungen werden Sie das ein oder
+                    andere von David entdecken können.
+                </div>
+            </div>
+            <div class="m-5"></div>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="row">
+    <div class="offset-sm-1 col-sm-10">
+        <div class="custom-bg-container">
+            <div class="">
+                <h1 class="my-3 text-center">Zur Geschichte</h1>
+                <div class="mb-3 p-4">
+                    Unsere Ferienwohnungen waren schon vor unserer Zeit , Pensionsräume für die
+                    ehemalige Gerichtsschänke in Rochlitz . Was auch auf unserer Fassade des Hauses
+                    noch zu erkennen ist. Einige Zeit stand das Gebäude leer und wir nahmen uns der
+                    Sache an, stilvolle Übernachtungsmöglichkeiten in Rochlitz zu schaffen.
+                    Rochlitz ist eine sehr schöne und sehenswerte Stadt. Einige Sehenswürdigkeiten
+                    finden sie hier auf unserer Seite - über Rochlitz.<br />
+                    Auch die Landschaft direkt an der Zwickauer Mulde lädt zum wandern, Fahrrad
+                    fahren oder sogar einer Bootstour ein.<br />
+                    In unseren Wohnungen möchtet wir Ihnen ein Stück Rochlitz näher bringen. Mit
+                    Bildern über die Stadt , das Schloss oder unserer sportlichen Geschichte von David
+                    Storl. Dieser ist hier in Rochlitz geboren und hat seine sportliche Karriere auch hier
+                    begonnen. Die Rochlitzer sind stolz auf Ihren Kugelstoßweltmeister und David fühlt
+                    sich sehr verbunden zu seiner Stadt. Jedes Jahr im Februar findet auch hier das
+                    Kugelstoß-Meeting in Rochlitz statt . In unseren Wohnungen werden Sie das ein oder
+                    andere von David entdecken können.
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

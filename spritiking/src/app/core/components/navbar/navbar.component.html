@@ -1,0 +1,23 @@
+
+<nav class="navbar navbar-expand-sm navbar-light custom-bg-navbar sticky-top">
+    <!-- <img class="navbar-brand" src="../../../../assets/images/placeholder.jpg"> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        (click)="toggleNavbarCollapse()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse custom-navbar-collapse p-2" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" *ngFor="let navRoute of navRoutes">
+                <a class="nav-link" [routerLink]="navRoute.route" routerLinkActive="active" (click)="navToggle()"
+                    *ngIf="!navRoute.isLink">
+                    {{ navRoute?.name }}
+                </a>
+                <a class="nav-link" [href]="navRoute.route" *ngIf="navRoute.isLink" target="_Blank">
+                    {{ navRoute?.name }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
