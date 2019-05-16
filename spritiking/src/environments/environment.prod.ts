@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  serviceWorkerConfig: {
+    timespan: 60 * 1000 * 30
+  },
 };

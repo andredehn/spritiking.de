@@ -35,21 +35,21 @@ export const NavRoutes: INavRoute[] = [
         route: '/start/home',
         isLink: false,
     },
-    {
-        name: 'Projekte',
-        route: '/software-project/list',
-        isLink: false,
-    },
-    {
-        name: 'Über mich',
-        route: '/about/me',
-        isLink: false,
-    },
-    {
-        name: 'Lebenslauf',
-        route: '/about/personal-data-sheet',
-        isLink: false,
-    },
+    // {
+    //     name: 'Projekte',
+    //     route: '/software-project/list',
+    //     isLink: false,
+    // },
+    // {
+    //     name: 'Über mich',
+    //     route: '/about/me',
+    //     isLink: false,
+    // },
+    // {
+    //     name: 'Lebenslauf',
+    //     route: '/about/personal-data-sheet',
+    //     isLink: false,
+    // },
     {
         name: 'Kontakt',
         route: '/contact',
